@@ -3,7 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 
 import Resume from './components/resume';
 import LandingPage from './components/landingpage';
-import AboutMe from './components/aboutme';
+import AboutMe from './components/AboutMe/aboutme';
 import Contact from './components/contact';
 
 const Router = () => (
