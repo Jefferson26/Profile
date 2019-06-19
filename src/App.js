@@ -1,13 +1,17 @@
 import React, {Component, Fragment} from "react";
 import {Pager} from "react-bootstrap";
 
+import AppBar from '@material-ui/core/AppBar';
+import Toolbar from '@material-ui/core/Toolbar';
+import Button from '@material-ui/core/Button';
+
 import ReactPageScroller from "react-page-scroller";
 import LandingPage from "./components/LandingPage/landingpage";
 import Aboutme from "./components/AboutMe/aboutme";
 import Resume from "./components/Resume/resume";
 import Contact from "./components/Contact/contact";
 
-import "./index.css";
+import styles from "./index.css";
 
 class App extends Component {
     constructor(props) {
@@ -24,26 +28,17 @@ class App extends Component {
         this.setState({currentPage: number});
     };
 
-    getPagesNumbers = () => {
-
-        const pageNumbers = [];
-
-        for (let i = 1; i <= 4; i++) {
-            pageNumbers.push(
-                <Pager.Item key={i} eventKey={i - 1} onSelect={this.goToPage}>{i}</Pager.Item>
-            )
-        }
-
-        return [...pageNumbers];
-    };
-
     render() {
-
-        //const pagesNumbers = this.getPagesNumbers();
-
         return <Fragment>
             <Pager className="pagination-additional-class" bsSize="large">
-               
+                <AppBar>
+                    <Toolbar className={styles.bar}>
+                        <Button key={0} eventKey={0} onSelect={this.goToPage} > <span className={styles.content}>Home </span></Button>
+                        <Button key={1} eventKey={1} onSelect={this.goToPage} > <span className={styles.content}>About </span></Button>
+                        <Button key={2} eventKey={2} onSelect={this.goToPage} > <span className={styles.content}>Projects </span></Button>
+                        <Button key={3} eventKey={3} onSelect={this.goToPage} > <span className={styles.content}>Contact </span></Button>
+                    </Toolbar>
+                </AppBar>
             </Pager>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
                 <LandingPage/>

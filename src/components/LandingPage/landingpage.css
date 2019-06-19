@@ -1,3 +1,32 @@
-.root{
+@font-face {
+  font-family: 'VCR-OSD-MONO';
+  font-style: normal;
+  src: local('VCR_OSD_MONO_1.001'), 
+    url('../../resources/fonts/VCR_OSD_MONO_1.001.ttf') format('ttf'), 
+}
+
+:local(.container) {
   background-color: #252526;
+  color: white;
+  height: 100%;
+}
+
+:local(.welcomeText) {
+  padding: 15% 25% 0% 25%;
+  font-family: 'VCR-OSD-MONO';
+  font-size: 300%;
+  line-height: 100%;
+}
+
+:local(.welcomeName) {
+  color: #4ebafe;
+}
+
+:local(.welcomeJob) {
+  margin-left: 0%;
+  font-size: 100%;
+}
+
+:local(.welcomeIntroduction) {
+  margin-left: 2%;
 }
