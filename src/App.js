@@ -2,10 +2,10 @@ import React, {Component, Fragment} from "react";
 import {Pager} from "react-bootstrap";
 
 import ReactPageScroller from "react-page-scroller";
-import LandingPage from "./components/landingpage";
-import Aboutme from "./components/aboutme";
-import Resume from "./components/resume";
-import Contact from "./components/contact";
+import LandingPage from "./components/LandingPage/landingpage";
+import Aboutme from "./components/AboutMe/aboutme";
+import Resume from "./components/Resume/resume";
+import Contact from "./components/Contact/contact";
 
 import "./index.css";
 
@@ -39,18 +39,18 @@ class App extends Component {
 
     render() {
 
-        const pagesNumbers = this.getPagesNumbers();
+        //const pagesNumbers = this.getPagesNumbers();
 
         return <Fragment>
+            <Pager className="pagination-additional-class" bsSize="large">
+               
+            </Pager>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
                 <LandingPage/>
                 <Aboutme/>
                 <Resume/>
                 <Contact/>
             </ReactPageScroller>
-            <Pager className="pagination-additional-class" bsSize="large">
-                {pagesNumbers}
-            </Pager>
         </Fragment>
     }
 }
