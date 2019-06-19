@@ -33,13 +33,14 @@ class App extends Component {
             <Pager className="pagination-additional-class" bsSize="large">
                 <AppBar>
                     <Toolbar className={styles.bar}>
-                        <Button key={0} eventKey={0} onSelect={this.goToPage} > <span className={styles.content}>Home </span></Button>
-                        <Button key={1} eventKey={1} onSelect={this.goToPage} > <span className={styles.content}>About </span></Button>
-                        <Button key={2} eventKey={2} onSelect={this.goToPage} > <span className={styles.content}>Projects </span></Button>
-                        <Button key={3} eventKey={3} onSelect={this.goToPage} > <span className={styles.content}>Contact </span></Button>
+                        <Pager.Item key={0} eventKey={0} onSelect={this.goToPage}><Button > <span className={styles.content}>Home </span></Button></Pager.Item>
+                        <Pager.Item key={1} eventKey={1} onSelect={this.goToPage}><Button > <span className={styles.content}>About </span></Button></Pager.Item>
+                        <Pager.Item key={2} eventKey={2} onSelect={this.goToPage}><Button > <span className={styles.content}>Projects </span></Button></Pager.Item>
+                        <Pager.Item key={3} eventKey={3} onSelect={this.goToPage}><Button > <span className={styles.content}>Contact </span></Button></Pager.Item>
                     </Toolbar>
                 </AppBar>
             </Pager>
+            
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
                 <LandingPage/>
                 <Aboutme/>

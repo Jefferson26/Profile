@@ -1,12 +1,27 @@
 :local(.bar) {
   background-color: #1e1e1e;
+  border-bottom: 3px solid #ff000065;
 }
 
 :local(.content) {
+  color: white;
+  font-size: 150%;
+  margin-left: 30px;
+}
+
+:local(.divisor) {
   color: white;
 }
 
 :local(.content:hover) {
   color: #4ebafe;
   transition-delay: 3ms;
+}
+
+li {
+  list-style-type: none;
+}
+
+a, u {
+  text-decoration: none;
 }
