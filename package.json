@@ -10,7 +10,9 @@
     "react-mdl": "^1.11.0",
     "react-page-scroller": "^1.5.1",
     "react-router-dom": "^5.0.1",
-    "react-scripts": "0.9.5"
+    "react-scripts": "0.9.5",
+    "react-typing-animation": "^1.6.2",
+    "react-typing-effect": "^2.0.2"
   },
   "devDependencies": {},
   "scripts": {

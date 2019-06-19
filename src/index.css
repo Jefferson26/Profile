@@ -1,5 +1,12 @@
-body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+:local(.bar) {
+  background-color: #1e1e1e;
+}
+
+:local(.content) {
+  color: white;
+}
+
+:local(.content:hover) {
+  color: #4ebafe;
+  transition-delay: 3ms;
 }
