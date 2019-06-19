@@ -7,9 +7,9 @@ import Typography from '@material-ui/core/Typography';
 import StepContent from '@material-ui/core/StepContent';
 
 import Style from "./aboutme.css";
-import Born from '../../resources/png/stork.png';
-import Education from '../../resources/png/location.png';
-import Work from '../../resources/png/briefcase.png';
+import Born from '../../resources/images/stork.png';
+import Education from '../../resources/images/location.png';
+import Work from '../../resources/images/briefcase.png';
 import Content from "./content";
 
 const useStyles = makeStyles(theme => ({

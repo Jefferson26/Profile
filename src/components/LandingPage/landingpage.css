@@ -1,21 +1,21 @@
-@font-face {
-  font-family: 'VCR-OSD-MONO';
-  font-style: normal;
-  src: local('VCR_OSD_MONO_1.001'), 
-    url('../../resources/fonts/VCR_OSD_MONO_1.001.ttf') format('ttf'), 
-}
-
 :local(.container) {
+  align-content: center;
+  text-align: center;
   background-color: #252526;
   color: white;
   height: 100%;
+  background-image: linear-gradient(-270deg, #252526, #3a3a3a);
 }
 
 :local(.welcomeText) {
-  padding: 15% 25% 0% 25%;
-  font-family: 'VCR-OSD-MONO';
-  font-size: 300%;
+  padding-top: 15%;
+  font-family: 'VT323', monospace;
+  font-size: 64px;
   line-height: 100%;
+}
+
+:local(.cursor) {
+  color: white;
 }
 
 :local(.welcomeName) {
@@ -23,10 +23,9 @@
 }
 
 :local(.welcomeJob) {
-  margin-left: 0%;
   font-size: 100%;
 }
 
-:local(.welcomeIntroduction) {
-  margin-left: 2%;
+:local(.avatar) {
+  width: 300%;
 }
