@@ -1,3 +1,23 @@
-img{
-  width: 75px;
+:local(.avatarImg) {
+  width: 22%;
 }
+
+:local(.profileInfo){
+  top: 130px;
+  left: 120px;
+  position: relative;
+}
+
+:local(.tittleDescription){
+  color: #252526;
+  font-family: 'Raleway', sans-serif;
+  padding-left: 100px;
+}
+
+:local(.description){
+  padding-right: 75%;
+  color: #252526;
+  font-family: 'Raleway', sans-serif;
+
+}
+

@@ -1,12 +1,15 @@
 :local(.bar) {
-  background-color: #1e1e1e;
-  border-bottom: 3px solid #ff000065;
+  background-color: #262826;
+  border-bottom: 4px solid #F7FF9E;
 }
 
 :local(.content) {
   color: white;
   font-size: 150%;
-  margin-left: 30px;
+}
+
+:local(.btnTabs) {
+  padding: 0 0 0 3%;
 }
 
 :local(.divisor) {
