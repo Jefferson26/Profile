@@ -24,6 +24,8 @@ export default function PersonalInfos() {
     {type:"React", value:50},
     {type:"HTML/CSS", value:75},
     {type:"SQL", value:70},
+    {type:"Android", value:40},
+    {type:"Selenium", value:60},
     {type:"C", value:40},
     {type:"C#", value:30}
   ];
