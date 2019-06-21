@@ -1,6 +1,6 @@
 :local(.bar) {
   background-color: #262826;
-  border-bottom: 4px solid #F7FF9E;
+  border-bottom: 4px solid #520B0B;
 }
 
 :local(.content) {
@@ -17,7 +17,7 @@
 }
 
 :local(.content:hover) {
-  color: #4ebafe;
+  color: #5CAAC4;
   transition-delay: 3ms;
 }
 
