@@ -1,23 +1,57 @@
 import React from "react";
-import Profile from "../../resources/images/avatar1.png";
+import LinearProgress from '@material-ui/core/LinearProgress';
+import { lighten, withStyles } from '@material-ui/core/styles';
+
 import Styles from "./aboutme.css";
 import Fade from 'react-reveal/Fade';
 
+const BorderLinearProgress = withStyles({
+  root: {
+    height: 25,
+    backgroundColor: lighten('#5CAAC4', 0.5),
+  },
+  bar: {
+    borderRadius: 20,
+    backgroundColor: '#5CAAC4',
+  },
+})(LinearProgress);
+
 export default function PersonalInfos() {
+ 
+  const elements = [
+    {type:"Java", value:85},
+    {type:"JavaScript", value:75},
+    {type:"React", value:50},
+    {type:"HTML/CSS", value:75},
+    {type:"SQL", value:70},
+    {type:"C", value:40},
+    {type:"C#", value:30}
+  ];
+
+  const items = []; 
+
+  for (const [index, element] of elements.entries()) {
+    items.push(
+      <div className={Styles.skillSet}>
+        <span className={Styles.skillTittle}>{element.type}</span>
+        <BorderLinearProgress className={Styles.skillBar}
+            variant="determinate"
+            color="secondary"
+            value={element.value}
+          />
+        <div className={Styles.skillNumber}>
+          <span>{element.value}%</span>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className={Styles.mainSkill}>
         <Fade right >
-            <div className={Styles.skillsInfo}>
-                <img alt="Jeff B." src={Profile} className={Styles.avatarImg}/>
-                <div className={Styles.description}>
-                    <h4 className={Styles.tittleDescription}>Who am I?</h4>
-                    <span> Description of my life here and more things asdad a asdas adsa</span>
-                    <span> Description of my life here and more things</span>
-                    <span> Description of my life here and more things</span>
-                    <span> Description of my life here and more things</span>
-                </div>
-            </div>
+          <div className={Styles.skillsInfo}>
+            {items}
+          </div>
         </Fade >
     </div>
   );

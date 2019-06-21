@@ -12,10 +12,10 @@ export default function PersonalInfos() {
                 <img alt="Jeff B." src={Profile} className={Styles.avatarImg}/>
                 <div className={Styles.description}>
                     <h4 className={Styles.tittleDescription}>Who am I?</h4>
-                    <span> Description of my life here and more things asdad a asdas adsa</span>
-                    <span> Description of my life here and more things</span>
-                    <span> Description of my life here and more things</span>
-                    <span> Description of my life here and more things</span>
+                    <p> I'm a full-stack web developer for the OSF Global Service in Brazil, CE. 
+                      Got my BS and Masters degree at Universidade Federal do Ceará. I love
+                      programming, learn new tecnologies, traveling, and hang out with my friends. 
+                      I'm always ready for a new challenge. =)</p>
                 </div>
             </div>
         </Fade >
