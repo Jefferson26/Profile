@@ -1,23 +1,31 @@
+:local(.mainDiv) {
+  padding: 150px 100px 0;
+
+}
+
+:local(.mainProfile) {
+  display: inline-block;
+  width: 50%
+}
+
 :local(.avatarImg) {
-  width: 22%;
+  width: 60%;
 }
 
 :local(.profileInfo){
-  top: 130px;
-  left: 120px;
   position: relative;
-}
-
-:local(.tittleDescription){
-  color: #252526;
-  font-family: 'Raleway', sans-serif;
-  padding-left: 100px;
+  display: inline-block;
+  text-align: center;
 }
 
 :local(.description){
-  padding-right: 75%;
   color: #252526;
   font-family: 'Raleway', sans-serif;
-
+  display: inline-block;
+  width: 70%;
 }
 
+:local(.mainSkill) {
+  width: 50%;
+  float: right;
+}
