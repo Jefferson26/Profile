@@ -9,9 +9,9 @@ class Landing extends Component{
             <div className={Styles.container}>
                 <p className={Styles.welcomeText}> 
                     <Typing speed={50} cursorClassName={Styles.cursor}>
-                        <span> Hello, I'm </span>
-                        <span className={Styles.welcomeName}> Jefferson Barbosa</span>.
-                        <p className={Styles.welcomeJob}> <span>I'm a full stack web developer.</span> </p>
+                        <span> Hello, I'm </span><br/>
+                        <span className={Styles.welcomeName}> Jefferson Barbosa</span>. <br/>
+                        <span className={Styles.welcomeJob}>I'm a full stack <br/> web developer.</span>
                     </Typing>
                 </p>
             </div>
