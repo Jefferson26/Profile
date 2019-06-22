@@ -8,11 +8,11 @@ import Fade from 'react-reveal/Fade';
 const BorderLinearProgress = withStyles({
   root: {
     height: 25,
-    backgroundColor: lighten('#5CAAC4', 0.5),
+    backgroundColor: lighten('#65BCDB', 0.5),
   },
   bar: {
     borderRadius: 20,
-    backgroundColor: '#5CAAC4',
+    backgroundColor: '#65BCDB',
   },
 })(LinearProgress);
 
