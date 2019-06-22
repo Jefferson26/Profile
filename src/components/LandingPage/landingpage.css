@@ -4,17 +4,18 @@
   background-color: #252526;
   color: white;
   height: 100%;
+  width: 100%;
   background-image: url("../../resources/images/background.png");
   background-size: 95%;
 }
 
 :local(.welcomeText) {
-  top: 300px;
-  font-family: 'VT323', monospace;
+  top: 150px;
+  font-family: 'Cutive Mono', monospace;
   font-weight: lighter;
-  font-size: 64px;
-  line-height: 100%;
+  font-size: 5vw;
   position: relative;
+  line-height: 90px;
 }
 
 :local(.cursor) {
@@ -22,7 +23,8 @@
 }
 
 :local(.welcomeName) {
-  color: #5289BF;
+  color: #5CAAC4;
+  
 }
 
 :local(.welcomeJob) {
