@@ -7,7 +7,7 @@ export default function PersonalInfos() {
 
   return (
     <div className={Styles.mainProfile}>
-        <Fade left >
+        <Fade left delay={600}>
             <div className={Styles.profileInfo}>
                 <img alt="Jeff B." src={Profile} className={Styles.avatarImg}/>
                 <div className={Styles.description}>

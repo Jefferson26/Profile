@@ -48,7 +48,7 @@ export default function PersonalInfos() {
 
   return (
     <div className={Styles.mainSkill}>
-        <Fade right >
+        <Fade right delay={1100}>
           <div className={Styles.skillsInfo}>
             {items}
           </div>

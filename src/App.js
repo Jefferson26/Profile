@@ -8,7 +8,7 @@ import Button from '@material-ui/core/Button';
 import ReactPageScroller from "react-page-scroller";
 import LandingPage from "./components/LandingPage/landingpage";
 import Aboutme from "./components/AboutMe/aboutme";
-import Resume from "./components/Resume/resume";
+import Projects from "./components/Projects/projects";
 import Contact from "./components/Contact/contact";
 
 import styles from "./index.css";
@@ -43,8 +43,8 @@ class App extends Component {
             
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
                 <LandingPage/>
-                <Aboutme/>
-                <Resume/>
+                <Aboutme className={styles.GeneralAbout}/>
+                <Projects/>
                 <Contact/>
             </ReactPageScroller>
         </Fragment>
