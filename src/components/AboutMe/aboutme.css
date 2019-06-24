@@ -1,6 +1,25 @@
-:local(.mainDiv) {
-  padding: 15% 10% 0;
+:local(.mainDivAbout) {
+  padding: 5% 10% 0;
+}
 
+:local(.mainTittle) {
+  font-family: 'Raleway', sans-serif; 
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+:local(.mainTittleDiv) {
+  text-align: center;
+  color: #252526;
+}
+
+:local(.square) {
+  height: 5px;
+  width: 120px;
+  align-content: center;
+  background-color: #5D7373;
+  display: inline-block;
+  margin-bottom: 3%;
 }
 
 :local(.mainProfile) {

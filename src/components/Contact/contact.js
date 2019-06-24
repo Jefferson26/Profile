@@ -1,10 +1,12 @@
 import React, { Component } from "react";
+import Styles from "./contact.css";
+import Tittle from "../tittle";
 
 class Contact extends Component{
     render(){
         return (
-            <div>
-                <h1>Contact</h1>
+            <div className={Styles.mainDivContact}>
+                <Tittle/>
             </div>
         )
     }

@@ -1,0 +1,9 @@
+:local(.mainDivContact) {
+  padding: 5% 10% 0;
+}
+
+:local(.mainTittleDiv) {
+  text-align: center;
+  color: #252526;
+}
+
