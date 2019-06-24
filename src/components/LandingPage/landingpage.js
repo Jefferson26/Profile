@@ -7,13 +7,15 @@ class Landing extends Component{
     render(){
         return (
             <div className={Styles.container}>
-                <p className={Styles.welcomeText}> 
+                
                     <Typing speed={50} cursorClassName={Styles.cursor}>
-                        <span> Hello, I'm </span><br/>
-                        <span className={Styles.welcomeName}> Jefferson Barbosa</span>. <br/>
-                        <span className={Styles.welcomeJob}>I'm a full stack <br/> web developer.</span>
+                        <p className={Styles.welcomeText}> 
+                            <span> Hello, I'm </span><br/>
+                            <span className={Styles.welcomeName}> Jefferson Barbosa</span>. <br/>
+                            <span className={Styles.welcomeJob}>I'm a full stack <br/> web developer.</span>
+                        </p>
                     </Typing>
-                </p>
+                
             </div>
         )
     }
