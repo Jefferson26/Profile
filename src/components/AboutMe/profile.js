@@ -13,7 +13,7 @@ export default function PersonalInfos() {
                 <div className={Styles.description}>
                     <h4 className={Styles.tittleDescription}>Who am I?</h4>
                     <p className={Styles.descriptionBody}> I'm a full-stack web developer for the OSF Global Service in Brazil, CE. 
-                      Got my BS and Masters degree at Universidade Federal do Ceará. I love
+                      Got my BS and Masters degrees at Universidade Federal do Ceará. I love
                       programming, learn new tecnologies, traveling, and hang out with my friends. 
                       I'm always ready for a new challenge. =)</p>
                 </div>

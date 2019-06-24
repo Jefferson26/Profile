@@ -20,11 +20,10 @@ export default function PersonalInfos() {
  
   const elements = [
     {type:"Java", value:85},
-    {type:"JavaScript", value:75},
+    {type:"Js", value:75},
     {type:"React", value:50},
-    {type:"HTML/CSS", value:75},
+    {type:"Html", value:75},
     {type:"SQL", value:70},
-    {type:"Android", value:40},
     {type:"Selenium", value:60},
     {type:"C", value:40},
     {type:"C#", value:30}
@@ -34,7 +33,7 @@ export default function PersonalInfos() {
 
   for (const [index, element] of elements.entries()) {
     items.push(
-      <div className={Styles.skillSet}>
+      <div key={index} className={Styles.skillSet}>
         <span className={Styles.skillTittle}>{element.type}</span>
         <BorderLinearProgress className={Styles.skillBar}
             variant="determinate"
