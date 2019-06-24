@@ -1,0 +1,19 @@
+:local(.tittle) {
+    font-family: 'Raleway', sans-serif; 
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+  
+:local(.rootDivTittle) {
+    text-align: center;
+    color: #252526;
+}
+  
+:local(.underline) {
+    height: 5px;
+    width: 120px;
+    align-content: center;
+    background-color: #5D7373;
+    display: inline-block;
+    margin-bottom: 3%;
+}
