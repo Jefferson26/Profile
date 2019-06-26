@@ -1,4 +1,3 @@
-:local(.mainTittleDiv) {
-  text-align: center;
-  color: #252526;
+:local(.mainDivProjects) {
+  padding: 5% 10% 0;
 }

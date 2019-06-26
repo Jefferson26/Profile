@@ -18,7 +18,7 @@
 }
 
 :local(.content:hover) {
-  color: #65BCDB;
+  color: #7BF2F2;
   transition-delay: 3ms;
 }
 

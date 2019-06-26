@@ -8,7 +8,7 @@ class About extends Component{
     render(){
         return (
             <div className={Styles.mainDivAbout}>
-                <Tittle/>
+                <Tittle tittleName={"About"}/>
                 <Profile/>
                 <Skills/>
             </div>
