@@ -6,7 +6,7 @@ class Tittle extends Component{
     render(){
         return (
             <div className={Styles.rootDivTittle}>
-                <Fade cascade left>
+                <Fade left>
                     <h1 className={Styles.tittle + " " + this.props.themeTittle }>{
                         this.props.tittleName}
                     </h1>

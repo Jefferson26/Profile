@@ -1,3 +1,17 @@
 :local(.mainDivProjects) {
   padding: 5% 10% 0;
 }
+
+:local(.stepCircleIco) {
+  border-radius: 50%;
+  -moz-border-radius: 50px/50px;
+  -webkit-border-radius: 50px 50px;
+  border-radius: 50px/50px;
+  border: solid 2px #5CAAC4;
+  width: 7px;
+  height: 7px;
+}
+
+:local(.stepCircleIco:hover) {
+  background-color: #5CAAC4
+}

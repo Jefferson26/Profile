@@ -49,11 +49,13 @@
   background-color: #252526;
   bottom: 0;
   width: 100%;
+  padding-bottom: 50%;
   display: inline-block;
 }
 
 :local(.iconContact) {
   width: 10%;
+  min-width: 50px;
   -webkit-transition: .3s ease-in-out;
   transition: .3s ease-in-out;
   background: none;
