@@ -19,12 +19,12 @@ const BorderLinearProgress = withStyles({
 export default function PersonalInfos() {
  
   const elements = [
-    {type:"Java", value:85},
-    {type:"Js", value:75},
-    {type:"React", value:50},
-    {type:"Html", value:75},
+    {type:"Java", value:80},
+    {type:"Js", value:70},
+    {type:"React", value:40},
+    {type:"Html", value:70},
     {type:"SQL", value:70},
-    {type:"C", value:40},
+    {type:"C", value:50},
     {type:"C#", value:30}
   ];
 
