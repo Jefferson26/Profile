@@ -2,6 +2,7 @@
     font-family: 'Raleway', sans-serif; 
     margin-top: 20px;
     margin-bottom: 0;
+    font-weight: bold;
 }
   
 :local(.rootDivTittle) {
@@ -10,7 +11,7 @@
 }
   
 :local(.underline) {
-    height: 5px;
+    height: 8px;
     width: 120px;
     align-content: center;
     background-color: #5D7373;

@@ -6,11 +6,13 @@ class Tittle extends Component{
     render(){
         return (
             <div className={Styles.rootDivTittle}>
-                <Fade left delay={300}>
-                    <h1 className={Styles.tittle}>About Jeff</h1>
+                <Fade cascade left>
+                    <h1 className={Styles.tittle + " " + this.props.themeTittle }>{
+                        this.props.tittleName}
+                    </h1>
                 </Fade>
-                <Fade right delay={300}>
-                    <div className={Styles.underline}></div>
+                <Fade right>
+                    <div className={Styles.underline + " " + this.props.themeUnderline}></div>
                 </Fade>
             </div>
         )
