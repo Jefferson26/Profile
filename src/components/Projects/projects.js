@@ -7,8 +7,10 @@ class Projects extends Component{
     render(){
         return (
             <div className={Styles.mainDivProjects}>
-                <Tittle tittleName={"Projects"}/>
-                <TimeLine/>
+                <Tittle tittleName={"Portfolio"}/>
+                <div className={Styles.timelineDiv}>
+                    <TimeLine />
+                </div>
             </div>
         )
     }
