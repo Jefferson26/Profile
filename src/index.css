@@ -33,3 +33,7 @@ li {
 a, u {
   text-decoration: none;
 }
+
+.MuiStepIcon-root.MuiStepIcon-active{
+  color: #5CAAC4 !important;
+}
