@@ -36,14 +36,40 @@ function getSteps() {
   ];
 }
 
+const content = [
+  {company:"OSF Global Service", 
+  date:"Mar 2018 - Currently",
+  description:"Web Developer using Java/Spring, Javascript/Knockout.js/ Thymeleaf, HTML/CSS/Bootstrap, " +
+  "JasperReports, Oracle, Hibernate, Maven, GitHub and JIRA. " +
+  "Also responsible for developing systems integration from message exchange using REST and SOAP protocols."},
+
+  {company:"GREat", 
+  date:"Jul 2015 - Dec 2018",
+  description:"Development and execution of test cases. Automation of test cases with the Selenium tool. " +
+  "Developing scripts for handling files from the Testlink tool. " + 
+  "Study of cloning in customization classes of a Software Product Line " +
+  "Development of plugins for JIRA " +
+  "Development of company website using PHP, HTML/CSS, JavaScript and Bootstrap " +
+  "Study about Dynamic Software Product Lines " +
+  "Development of the website containing information about the study using the Joomla platform."
+  },
+
+  {company:"Fraile & Blanco", 
+  date:"Summer 2013",
+  description:"Back and Front-end development of web sites using PHP language with Javascript, " +
+  "JQuery, HTML, CSS and MySQL. " +
+  "Development of Android applications."},
+
+];
+
 function getStepContent(step) {
   switch (step) {
     case 0:
-      return <Content/>;
+      return <Content infoJobs={content[step]}/>;
     case 1:
-      return <Content/>;
+      return <Content infoJobs={content[step]}/>;
     case 2:
-      return <Content/>;
+      return <Content infoJobs={content[step]}/>;
     default:
       return 'Unknown step';
   }

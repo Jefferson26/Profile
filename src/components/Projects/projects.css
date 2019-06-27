@@ -2,7 +2,8 @@
   padding: 5% 10% 0;
 }
 
-:local(.stepCircleIco) {
+
+:local(.stepCircleIcon) {
   border-radius: 50%;
   -moz-border-radius: 50px/50px;
   -webkit-border-radius: 50px 50px;
@@ -12,6 +13,24 @@
   height: 7px;
 }
 
-:local(.stepCircleIco:hover) {
+:local(.stepCircleIconTeste) {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
   background-color: #5CAAC4
+}
+
+:local(.tittleJob) {
+  font-family: 'Raleway', sans-serif;
+  color: #252526;
+}
+
+:local(.descriptionJob) {
+  font-family: 'Cutive Mono', monospace;
+  color: #252526;
+  font-weight: bold;
+}
+
+:local(.iconColor) {
+  color: #5CAAC4 !important;
 }
