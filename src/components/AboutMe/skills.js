@@ -22,10 +22,13 @@ export default function PersonalInfos() {
     {type:"Java", value:80},
     {type:"Js", value:70},
     {type:"React", value:40},
-    {type:"Html", value:70},
-    {type:"SQL", value:70},
-    {type:"C", value:50},
-    {type:"C#", value:30}
+    {type:"Html/CSS", value:70},
+    {type:"SQL/HQL", value:70},
+    {type:"JSP/JSF", value:60},
+    {type:"Hibernate", value:70},
+    {type:"Oracle", value:70},
+    {type:"Selenium", value:70},
+    {type:"UML", value:80},
   ];
 
   const items = []; 
