@@ -18,7 +18,7 @@ const CssTextField = withStyles({
           borderColor: '#252526',
         },
         '&:hover fieldset': {
-          borderColor: '#252526',
+          borderColor: '#fdfdfd',
         },
         '&.Mui-focused fieldset': {
           borderColor: '#7BF2F2',
