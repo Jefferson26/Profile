@@ -24,10 +24,6 @@ class App extends Component {
         this._pageScroller.goToPage(eventKey);
     };
 
-    pageOnChange = (number) => {
-        this.setState({currentPage: number});
-    };
-
     render() {
         return <Fragment>
             <Pager className="pagination-additional-class" bsSize="large">
@@ -41,7 +37,7 @@ class App extends Component {
                 </AppBar>
             </Pager>
             
-            <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
+            <ReactPageScroller ref={c => this._pageScroller = c} >
                 <LandingPage/>
                 <Aboutme className={styles.GeneralAbout}/>
                 <Projects/>

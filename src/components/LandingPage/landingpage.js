@@ -8,7 +8,7 @@ class Landing extends Component{
         return (
             <div className={Styles.container}>
                 
-                    <Typing speed={50} cursorClassName={Styles.cursor}>
+                    <Typing speed={30} cursorClassName={Styles.cursor}>
                         <p className={Styles.welcomeText}> 
                             <span> Hello, I'm </span><br/>
                             <span className={Styles.welcomeName}> Jefferson Barbosa</span>. <br/>
