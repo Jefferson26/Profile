@@ -10,6 +10,7 @@ import LandingPage from "./components/LandingPage/landingpage";
 import Aboutme from "./components/AboutMe/aboutme";
 import Projects from "./components/Projects/projects";
 import Contact from "./components/Contact/contact";
+import Papers from "./components/Papers/papers"
 
 import styles from "./index.css";
 
@@ -32,7 +33,8 @@ class App extends Component {
                         <Pager.Item key={0} eventKey={0} onSelect={this.goToPage} className={styles.btnTabs}><Button > <span className={styles.content}>Home </span></Button></Pager.Item>
                         <Pager.Item key={1} eventKey={1} onSelect={this.goToPage} className={styles.btnTabs}><Button > <span className={styles.content}>About </span></Button></Pager.Item>
                         <Pager.Item key={2} eventKey={2} onSelect={this.goToPage} className={styles.btnTabs}><Button > <span className={styles.content}>Portfolio </span></Button></Pager.Item>
-                        <Pager.Item key={3} eventKey={3} onSelect={this.goToPage} className={styles.btnTabs}><Button > <span className={styles.content}>Contact </span></Button></Pager.Item>
+                        <Pager.Item key={3} eventKey={3} onSelect={this.goToPage} className={styles.btnTabs}><Button > <span className={styles.content}>Papers </span></Button></Pager.Item>
+                        <Pager.Item key={4} eventKey={4} onSelect={this.goToPage} className={styles.btnTabs}><Button > <span className={styles.content}>Contact </span></Button></Pager.Item>
                     </Toolbar>
                 </AppBar>
             </Pager>
@@ -41,6 +43,7 @@ class App extends Component {
                 <LandingPage/>
                 <Aboutme className={styles.GeneralAbout}/>
                 <Projects/>
+                <Papers/>
                 <Contact/>
             </ReactPageScroller>
         </Fragment>

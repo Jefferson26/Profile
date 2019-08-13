@@ -1,0 +1,17 @@
+:local(.mainDivProjects) {
+  padding: 5% 10% 0;
+}
+
+:local(.papersTxt) {
+  font-size: calc(12px + .5vw);
+  line-height: 100%;
+}
+
+:local(.paperBodySection) {
+  margin-top: 5%;
+}
+
+:local(.tittlePaper) {
+  color: #252526;
+  font-weight: bold;
+}
